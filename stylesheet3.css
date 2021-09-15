@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+} 
+
+body {
+  font-family: "Avenir Next";
+  
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right,#f2f2e9 25%,#9eddd4 25% 50%,#55afc0 50% 75%,#001e4e 75%);
+  
+}
+
+header {
+  width: 100%;
+  float: right;
+  margin-top: 23px;
+}
+
+.header-right {
+  position: absolute;
+  top: 27px;
+  right: 23px;
+  display: inline-block;
+}
+
+a.logo {
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: 17px;
+  letter-spacing: 3px;
+  font-size: 17px;
+  color: #001e4e;
+}
+
+.pc-languages {
+  margin-right: 30px;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.wrap {
+  width: 25%;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.header-right a {
+  color: #ffffff;
+  border-bottom: solid 4.5px #ffffff;
+  font-size: 17px;
+}
+
+.number {
+  font-size: larger;
+}
+
+.slide {
+  display: block;
+  
+  padding-top: 100px;
+  padding-right: 20px;
+}
+
+.slide-1 {
+  color: #001e4e;
+}
+
+.slide-2 {
+  color: #2b7a7a;
+}
+
+.slide-3 {
+  color: #1e396b;
+}
+
+.slide-4 {
+  color: #e6aeb0;
+}
+
+p,h1 {
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  left: 13%;
+}
+
+p {
+  margin: 8px 0 3px;
+  letter-spacing: 1.2px;
+  font-size: 15px;
+}
+
+h1 {
+  margin: 4px 0 15px;
+}
+
+.underline-1 {
+  position: relative;
+  left: 13%;
+  width: 18%;
+  height: 4px;
+  background-color: #001e4e;
+  margin: 2px 0 18px;
+}
+
+.underline-2{
+  position: relative;
+  left: 13%;
+  width: 18%;
+  height: 4px;
+  background-color: #2b7a7a;
+  margin: 2px 0 18px;
+}
+
+.underline-3{
+  position: relative;
+  left: 13%;
+  width: 18%;
+  height: 4px;
+  background-color:  #1e396b;
+  margin: 2px 0 18px;
+}
+
+.underline-4 {
+  position: relative;
+  left: 13%;
+  width: 18%;
+  height: 4px;
+  background-color: #e6aeb0;
+  margin: 2px 0 18px;
+}
+
+@media (min-width: 1220px) {
+  .br-nallow {
+    display: none
+  }
+}
+   
+  @media (max-width: 1220px) {
+  .br-pc {
+    display: none;
+  }
+
+  .br-nallow {
+    display: block;
+  }
+}
+
+@media (max-width: 990px) {
+  body {
+    background: linear-gradient(to bottom,#f2f2e9 25%,#9eddd4 25% 50%,#55afc0 50% 75%,#001e4e 75%);
+  }
+  
+  .wrap {
+    float: none;
+  }
+
+  
+  .sentence,.underline-1,.underline-2,.underline-3,.underline-4,.pc-languages {
+    display: none;
+  }
+
+  
+  .slide h1 {
+    margin-bottom: 65px;
+    font-size: 28px;
+    margin-left: 65px;
+  }
+
+ .number {
+   font-size: 22px;
+    display: inline-block;
+    position: relative;
+    top: 52px;
+    left: 12px;
+  }
+
+  .header-right a {
+    color: #001e4e;
+    border-bottom: solid 4.5px #001e4e;
+  }
+}
+
+
+
+
+
+
